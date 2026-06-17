@@ -5,7 +5,11 @@
 }
 
 body{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  /* The font I chose for the title is basic as I didn't want it to be too hard for my intended audience to read. Nothing too cursive or fancy, but not too
+  plain/boring. I like the boldness of this font as I do think it matches the warm vibe the game is evoking through the choice of colours */
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:#fffd9b;
   text-align:center;
   padding:40px;
@@ -17,6 +21,7 @@ body{
 h1{
   margin-bottom:30px;
   color:#ffc477;
+  font-size: 45px;
 }
 
 .game-container{
@@ -44,10 +49,8 @@ h1{
 #tray{
   width:240px;
   height:400px;
-
   border:5px solid #ffc477;
   background:white;
-
   position:relative;
 }
 
@@ -59,21 +62,13 @@ h1{
 
 .piece{
   position:absolute;
-
   width:200px;
   height:200px;
-
   cursor:grab;
-
   pointer-events:auto;
-
   background-repeat:no-repeat;
-
   user-select:none;
-  touch-action:none;
-
   border-radius:4px;
-
   box-shadow:0 2px 8px rgba(0,0,0,.15);
 }
 
@@ -85,9 +80,7 @@ h1{
 #complete-screen{
   position:fixed;
   inset:0;
-
-  background:rgba(0,0,0,.7);
-
+  background:rgb(255, 255, 255);
   display:none;
   justify-content:center;
   align-items:center;
