@@ -5,7 +5,7 @@
 }
 
 body{
-  
+
   /* The font I chose for the title is basic as I didn't want it to be too hard for my intended audience to read. Nothing too cursive or fancy, but not too
   plain/boring. I like the boldness of this font as I do think it matches the warm vibe the game is evoking through the choice of colours */
 
@@ -22,6 +22,7 @@ h1{
   margin-bottom:30px;
   color:#ffc477;
   font-size: 45px;
+  
 }
 
 .game-container{
@@ -91,3 +92,5 @@ h1{
   padding:40px;
   border-radius:20px;
 }
+
+/* My chosen context of "game" assisted me in my stylistic choices. I wanted to ensure that it was easy to navigate yourself through the interface. Since, again, this is aimed towards younger children, I thought adding too many flashy effects would distract them from what the pieces were. The gridded lines help with identifiying where to put the pieces*/

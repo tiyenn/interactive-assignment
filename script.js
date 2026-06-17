@@ -139,3 +139,5 @@ function loadLevel() {
     pieceLayer.appendChild(piece);
   }
 }
+
+// Code was assisted with AI. I learnt how to make a 4 levelled drag game. I decided to not make the pieces automatically go back into the tray when it is placed incorrectly, like I stated in my presentation, I wanted the game to imitate you actually placing puzzle pieces down like you would in real life. The way the pieces dont snap back to the tray also helps with my drag action, encouraging users to also continuously drag the images around until they find the corect position.// 
