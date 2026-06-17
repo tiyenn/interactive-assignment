@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle with Charlie!</title>
 
-  <title>Puzzle with Charlie the dog!</title>
-
-</head>
-<body>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
 
 <h1>Puzzle with Charlie the dog!</h1>
 
+<!-- I decided to use pictures of my dog, Charlie to carry out this game. Dogs are cute and can be suited for a short childrens game. The goal is for the kids to drag the pieces of the dog
+ into one full image.-->
 
 <div class="game-container">
 
   <!--In my visual plan, I had the board (where people drag the pieces into the board) visually similar to the one I have represented right now. Since I do think this is more for 
 the audience of children (just a small short game with my dog, Charlie) I decided to make the pieces go 2x2. I don't really know how I can cut the pieces like I did in the visual plan,
 but again, since this is aimed towards children, I think it would be easier if the pieces were cropped as squares. -->
-
 
   <div id="board">
     <div class="slot" data-piece="0"></div>
@@ -27,7 +29,8 @@ but again, since this is aimed towards children, I think it would be easier if t
     <div class="slot" data-piece="3"></div>
   </div>
 
-<!-- I got the help of -->
+<!-- I used ChatGPT (OpenAI, 2026), to help me figure out how to make the board section to put in the pieces. I learnt that having a specific slot will assist
+ the game to know what pieces connect to what data. What I've learnt has been transferred into JS as well to ensure that this is functioning properly into the puzzle game.-->
 
   <div id="tray"></div>
 
@@ -44,6 +47,8 @@ but again, since this is aimed towards children, I think it would be easier if t
   </div>
 </div>
 
-<script src="script.js"></script>
 </body>
 </html>
+
+<!-- OpenAI 2026, Puzzle Piece Drag Game [Large language model], ChatGPT, viewed 17 June 2026, https://chatgpt.com/s/t_6a324ef45cd081919309603465d5cbdb.
+ -->
